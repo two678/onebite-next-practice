@@ -9,7 +9,7 @@ async function Footer() {
     { cache: "force-cache" }
   );
   if (!response.ok) {
-    return <footer>제작 @winterlood</footer>;
+    return <footer>제작 @two678</footer>;
   }
 
   const books: BookData[] = await response.json();
