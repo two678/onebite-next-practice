@@ -2,11 +2,10 @@ import { ReviewData } from "@/types";
 import style from "./review-item.module.css";
 
 export default function ReviewItem({
-  id,
+  // id,
   content,
   author,
-  createdAt,
-  bookId,
+  createdAt, // bookId,
 }: ReviewData) {
   return (
     <div className={style.container}>
